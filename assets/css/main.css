@@ -1,0 +1,244 @@
+/* common */
+.container__heading {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin-top: 65px;
+
+}
+
+.container__subheading {
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 55px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.container__document {
+    margin-bottom: 25px;
+}
+
+/* header-pc */
+.header-pc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.header-pc__home {
+    padding: 4px 8px;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 2.8rem;
+}
+
+.header-pc__list {
+    display: inline-block;
+}
+
+.header-pc__item {
+    padding: 8px 16px;
+    display: block;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.header-pc__item:hover {
+    background-color: #ccc;
+}
+/* container */
+.container {
+    padding:0 12px;
+}
+
+/* home */
+#home {
+    margin-top: 10px;
+    position: relative;
+}
+
+.home__img {
+    width: 100%;
+}
+
+.home__infor {
+    position: absolute;
+    left: 20px;
+    color: #fff;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.home__job {
+    font-size: 3.2rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.home__location {
+    font-size: 6.4rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.home__booking {
+    text-decoration: underline;
+    padding: 12px 24px;
+    font-size: 1.8rem;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 4px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.home__booking:hover,
+.trainers__button:hover,
+.activites__button:hover,
+.contact__submit:hover {
+    background-color: #ccc;
+    
+}
+
+/* trainers */
+.trainers__col {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.trainers__img {
+    width: 100%;
+}
+
+.trainers__infor {
+    padding: 0 16px;
+    padding-bottom: 15px;
+}
+
+.trainers__name {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.trainers__job {
+    opacity: 0.6;
+    font-size: 1.4rem;
+    margin: 16px 0;
+}
+
+.container__mess {
+    margin-bottom: 15px;
+}
+
+.trainers__button {
+    color: #000;
+    text-decoration: underline;
+    background-color: var(--primary-color);
+    padding: 8px 16px;
+    text-align: center;
+    display: block;
+    border-radius: 4px;
+}
+
+.activites__img {
+    width: 100%;
+}
+
+.activites__infor {
+    padding: 0 16px;
+    padding-bottom: 15px;
+}
+
+.activites__name {
+    margin-bottom: 15px;
+}
+
+.activites__button {
+    color: #000;
+    padding: 12px 18px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+/* Contact form */
+.contact__input{
+    display: block;
+    width: 100%;
+    padding: 16px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.contact__submit{
+    display: block;
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    margin-top: 65px;
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer__mess {
+    font-weight: 400;
+    padding: 16px 0;
+}
+
+.footer__social {
+    padding-bottom: 16px;
+}
+
+.footer__social-link {
+    color: #000;
+    padding:12px;
+    font-size: 2.2rem;
+}
+
+.footer__social-link:hover {
+    opacity: 0.6;
+}
+
+.footer__powred {
+    padding-bottom: 20px;
+}
+
+.footer__powred a {
+    color: #3845f7;
+    text-decoration: underline;
+}
+
+.footer__powred a:hover {
+    opacity: 0.6;
+}
+
+/* nav on mobile */
+.header-mobile__menu {
+    padding: 12px 16px;
+}
+
+.header-mobile__nav {
+    display: none;
+}
+
+.header-mobile__item {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding:8px 16px;
+    display: block;
+}  

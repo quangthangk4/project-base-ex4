@@ -1,0 +1,56 @@
+/* moblie */
+@media (max-width: 739px) {
+    body{
+        padding: 0 12px;
+    }
+
+    .header-pc {
+        margin-bottom: 15px;
+    }
+
+    .header-pc__nav {
+        display: none;
+    }
+
+    .col {
+        margin-bottom: 15px;
+    }
+
+    .home__job {
+        font-size: 2.2rem;
+    }
+    
+    .home__location {
+        font-size: 4.2rem;
+    }
+
+
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .home__job {
+        font-size: 2.8rem;
+    }
+    
+    .home__location {
+        font-size: 5.4rem;
+    }
+    
+    .wide {
+        width: 100% !important;
+        padding:0 16px;
+    }
+}
+
+/* PC */
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 740px) {
+    .hide-on-tablet-and-pc {
+        display: none !important;
+    }
+}

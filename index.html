@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/grid.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Happy paws</title>
+</head>
+
+<body>
+  <div class="grid wide">
+    <header>
+      <div class="header-pc">
+        <p class="header-pc__home">HAPPY PAWS</p>
+        <ul class="header-pc__nav">
+          <li class="header-pc__list">
+            <a href="#home" class="header-pc__item">home</a>
+          </li>
+          <li class="header-pc__list">
+            <a href="#trainers" class="header-pc__item">trainers</a>
+          </li>
+          <li class="header-pc__list">
+            <a href="#activites" class="header-pc__item">activites</a>
+          </li>
+          <li class="header-pc__list">
+            <a href="#contact" class="header-pc__item">contact</a>
+          </li>
+        </ul>
+
+        <i class="header-mobile__menu hide-on-tablet-and-pc fa-solid fa-bars" onclick="showNavOnMobile()"></i>
+      </div>
+      <ul class="header-mobile__nav hide-on-tablet-and-pc js-show-nav-when-click">
+        <li class="header-mobile__list">
+          <a href="#home" class="header-mobile__item">home</a>
+        </li>
+        <li class="header-mobile__list">
+          <a href="#trainers" class="header-mobile__item">trainers</a>
+        </li>
+        <li class="header-mobile__list">
+          <a href="#activites" class="header-mobile__item">activites</a>
+        </li>
+        <li class="header-mobile__list">
+          <a href="#contact" class="header-mobile__item">contact</a>
+        </li>
+      </ul>
+
+    </header>
+
+    <div id="home">
+      <img src="./assets/img/slide.avif" alt="slide" class="home__img">
+      <div class="home__infor">
+        <h3 class="home__job">DOG CARETAKERS</h3>
+        <h1 class="home__location">NEW FOUNDLAND</h1>
+        <a href="#contact" class="home__booking">BOOK NOW</a>
+      </div>
+    </div>
+
+    <main class="container">
+
+      <div id="trainers">
+        <h2 class="container__heading">TRAINERS</h2>
+        <p class="container__subheading">The caretakers</p>
+        <p class="container__document">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra
+          rhoncus suscipit. Integer eget leo pretium, vulputate velit sit amet, aliquam est. Pellentesque a
+          malesuada orci, at rhoncus enim. Suspendisse at dictum arcu. Etiam tempus varius sem, at pretium
+          augue fringilla et. Curabitur tempus sollicitudin congue. Aliquam in malesuada eros. Nunc
+          ullamcorper sagittis augue a ornare. Aenean faucibus finibus sollicitudin. Nullam interdum tellus
+          mauris, et mattis libero accumsan vitae. Suspendisse et dui accumsan, lacinia leo in, aliquam felis.
+          Aliquam tortor tellus, egestas tristique orci at, rutrum lacinia orci.</p>
+
+        <div class="row">
+          <div class="col l-4 m-4 c-12">
+            <div class="trainers__col">
+              <img src="./assets/img/trainers-1.avif" alt="trainers 1" class="trainers__img">
+              <div class="trainers__infor">
+                <h3 class="trainers__name">Jane Cormick</h3>
+                <p class="trainers__job">CEO & Founder</p>
+                <p class="container__mess">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                  pellentesque elementum.
+                </p>
+                <a href="#contact" class="trainers__button">BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l-4 m-4 c-12">
+            <div class="trainers__col">
+              <img src="./assets/img/trainers-2avif.avif" alt="trainers 2" class="trainers__img">
+              <div class="trainers__infor">
+                <h3 class="trainers__name">Kristen Arnheim</h3>
+                <p class="trainers__job">Dog Walker & Trainer</p>
+                <p class="container__mess">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                  pellentesque elementum.
+                </p>
+                <a href="#contact" class="trainers__button">BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l-4 m-4 c-12">
+            <div class="trainers__col">
+              <img src="./assets/img/trainers-3.avif" alt="trainers 3" class="trainers__img">
+              <div class="trainers__infor">
+                <h3 class="trainers__name">Ola Truntwistle</h3>
+                <p class="trainers__job">Dog Trainer & Hairdresser</p>
+                <p class="container__mess">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                  pellentesque elementum.
+                </p>
+                <a href="#contact" class="trainers__button">BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="trainers">
+        <h2 class="container__heading">ACTIVITIES</h2>
+        <p class="container__subheading">Find the right activity for your dog</p>
+        <p class="container__document">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra rhoncus
+          suscipit. Integer eget leo pretium, vulputate velit sit amet, aliquam est. Pellentesque a malesuada orci, at
+          rhoncus enim. Suspendisse at dictum arcu. Etiam tempus varius sem, at pretium augue fringilla et. Curabitur
+          tempus sollicitudin congue. Aliquam in malesuada eros. Nunc ullamcorper sagittis augue a ornare. Aenean
+          faucibus finibus sollicitudin. Nullam interdum tellus mauris, et mattis libero accumsan vitae. Suspendisse et
+          dui accumsan, lacinia leo in, aliquam felis. Aliquam tortor tellus, egestas tristique orci at, rutrum lacinia
+          orci.</p>
+
+        <div class="row">
+          <div class="col l-4 m-4 c-12">
+            <div class="activites__col">
+              <img src="./assets/img/activites-1.avif" alt="activites 1" class="activites__img">
+              <div class="activites__infor">
+                <h4 class="activites__name">Dog Walking</h4>
+                <p class="container__mess">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="#contact" class="activites__button">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l-4 m-4 c-12">
+            <div class="activites__col">
+              <img src="./assets/img/activites-2avif.avif" alt="activites 2" class="activites__img">
+              <div class="activites__infor">
+                <h4 class="activites__name">Dog Training</h4>
+                <p class="container__mess">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="#contact" class="activites__button">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l-4 m-4 c-12">
+            <div class="activites__col">
+              <img src="./assets/img/activites-3.avif" alt="activites 3" class="activites__img">
+              <div class="activites__infor">
+                <h4 class="activites__name">Dog Haircut</h4>
+                <p class="container__mess">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="#contact" class="activites__button">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <h2 class="container__heading">CONTACT</h2>
+        <p class="container__subheading">Book now or just send us a message </p>
+        <p class="container__document">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra rhoncus
+          suscipit. Integer eget leo pretium, vulputate velit sit amet, aliquam est. Pellentesque a malesuada orci, at
+          rhoncus enim. Suspendisse at dictum arcu. Etiam tempus varius sem, at pretium augue fringilla et. Curabitur
+          tempus sollicitudin congue. Aliquam in malesuada eros. Nunc ullamcorper sagittis augue a ornare. Aenean
+          faucibus finibus sollicitudin. Nullam interdum tellus mauris, et mattis libero accumsan vitae. Suspendisse et
+          dui accumsan, lacinia leo in, aliquam felis. Aliquam tortor tellus, egestas tristique orci at, rutrum lacinia
+          orci.</p>
+
+        <form action="#">
+          <input type="text" name="name" id="name" placeholder="Name" class="contact__input" required>
+          <input type="text" name="service" id="service" placeholder="Service" class="contact__input" required>
+          <input type="datetime-local" name="date" id="date" class="contact__input" required>
+          <input type="text" name="message" id="message" placeholder="Message" class="contact__input" required>
+          <button type="submit" class="contact__submit">SEND MESSAGE</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <h4 class="footer__mess">Find us on social media.</h4>
+      <div class="footer__social">
+        <a href="#" class="footer__social-link"><i class="footer__social-icon fa-brands fa-facebook"></i></a>
+        <a href="#" class="footer__social-link"><i class="footer__social-icon fa-brands fa-instagram"></i></a>
+        <a href="#" class="footer__social-link"><i class="footer__social-icon fa-brands fa-snapchat"></i></a>
+        <a href="#" class="footer__social-link"><i class="footer__social-icon fa-brands fa-twitter"></i></a>
+        <a href="#" class="footer__social-link"><i class="footer__social-icon fa-brands fa-pinterest-p"></i></a>
+        <a href="#" class="footer__social-link"><i class="footer__social-icon fa-brands fa-linkedin-in"></i></a>
+      </div>
+      <p class="footer__powred">Trang web được xây dựng bởi <a
+          href="https://www.facebook.com/profile.php?id=100024503231046">Quang Thắng</a></p>
+    </footer>
+  </div>
+
+  <script>
+    const buttonShowNavOnMobile = document.querySelector(".js-show-nav-when-click");
+
+    function showNavOnMobile() {
+      (buttonShowNavOnMobile.style.display === "none") ? buttonShowNavOnMobile.style.display = "block" : buttonShowNavOnMobile.style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
